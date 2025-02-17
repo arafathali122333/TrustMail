@@ -1,6 +1,6 @@
 const { fetchAPI } = require('./network'),
 cliqBaseDomain = "cliq.zoho.in",
-cliqTokenBaseDomain = "alinet.in",
+cliqTokenBaseDomain = "alinet.in", //replace your valid domain
 alert500ChatID = process.env.ALERT_500_CHAT_ID,
 cliqEntryToken = process.env.CLIQ_ENTRY_TOKEN;
 
