@@ -9,6 +9,7 @@ A **secure, fast, and efficient** Node.js-based email service with **attachment 
 ✅ **AJV-based Schema Validation** with detailed error messages.  
 ✅ **Multer for File Uploads** from env config.
 ✅ **Cliq** for production issues alert.  
+![500_Alert](https://github.com/user-attachments/assets/b6ba29df-6668-4e7c-bded-bf796c7abd4c)
 
 ## ⚙️ Configuration  
 
@@ -35,12 +36,11 @@ CLIQ_ENTRY_TOKEN=
 
 ## 🔒 Security Measures
 
-- **📌 File type validation:** Prevents malicious file uploads.
-- **📌 Input validation:** Ensures structured data before processing.
-- **📌 Global error handling:** Catches and logs all errors.
-- **📌 Cliq Integration:** We use cliq For Production Issues Alert Bot.
-- **📌 IP Throttling & Others:** Its handle our serverless function.
-
+- ** File type validation:** Prevents malicious file uploads.
+- ** Input validation:** Ensures structured data before processing.
+- ** Global error handling:** Catches and logs all errors.
+- ** Cliq Integration:** We use cliq For Production Issues Alert Bot.
+- ** IP Throttling & Others:** Its handle our serverless function.
 
 ## 📬 Contact & Support
 
