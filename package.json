@@ -1,0 +1,17 @@
+{
+	"name": "trustmail",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "arafathalitech@gmail.com",
+	"dependencies": {
+		"ajv": "^8.17.1",
+		"ajv-errors": "^3.0.0",
+		"ajv-formats": "^3.0.1",
+		"dns": "^0.2.2",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"multer": "^1.4.5-lts.1",
+		"nodemailer": "^6.10.0",
+		"zcatalyst-sdk-node": "latest"
+	}
+}
