@@ -1,0 +1,3 @@
+node_modules/
+catalyst-config.json
+.env
