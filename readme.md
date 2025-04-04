@@ -9,6 +9,7 @@ A **secure, fast, and efficient** Node.js-based email service with **attachment 
 ✅ **AJV-based Schema Validation** with detailed error messages.  
 ✅ **Multer for File Uploads** from env config.
 ✅ **Cliq** for production issues alert.  
+![413937912-b6ba29df-6668-4e7c-bded-bf796c7abd4c](https://github.com/user-attachments/assets/8c03bd0a-b6b6-4d76-af1a-d03280387938)
 
 ## ⚙️ Configuration  
 
