@@ -23,7 +23,7 @@ router.post("/send", multerSchema, validateRequest(sendEmailSchema), async (req,
     try {
         // Check email validity
         const isNeedValidation = req.body.is_need_validation;
-        if(isNeedValidation){
+        if(isNeedValidation === "true"){
             const isValidEmail = await isTrustedEmail(req.body.to); 
             if (!isValidEmail) {
                 return res.status(422).json({ message: "Email is not trusted" });
