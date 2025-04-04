@@ -60,7 +60,7 @@ const sendEmailSchema = {
     type: "object",
     properties: {
         org_name: { type: "string", minLength: 1, maxLength: 100, errorMessage: "Organization name is required and should be at most 100 characters." },
-        is_need_validation: { type: "string", pattern: "^(true|false)$", minLength: 1, maxLength: 5, errorMessage: "is_need_validation node must be boolean."},
+        is_need_validation: { type: "string", enum: ["true", "false"], errorMessage: "is_need_validation node must be either 'true' or 'false'." },
         to: { 
             type: "string", 
             format: "email", 
