@@ -23,8 +23,8 @@ ATTACHMENT_SIZE_LIMIT_BYTES=
 ATTACHMENT_LIMIT=3
 ALERT_500_CHAT_ID=CLIQ_CHAT_ID
 CLIQ_BASE_DOMAIN=CLIQ_BASE_DOMAIN
-CLIQ_TOKEN_BASE_DOMAIN=Directly provide your CLIQ ACCESS TOKEN.
-**Note:** You need to modify the getCliqToken function to return process.env.CLIQ_TOKEN_BASE_DOMAIN in /services/alert500.js.
+CLIQ_ENTRY_TOKEN=Directly provide your CLIQ ACCESS TOKEN.
+**Note:** You need to modify the getCliqToken function to return process.env.CLIQ_ENTRY_TOKEN in /services/alert500.js.
 CLIQ_BOT_LOGO_URL=ANY_IMAGE_LINK
 SMTP_HOST=SMTP_HOST
 SMTP_PORT=SMTP_PORT
